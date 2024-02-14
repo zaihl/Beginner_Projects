@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    background-image: url(pawel-nolbert-4u2U8EO9OzY-unsplash.jpg);
+    backdrop-filter: blur(1px);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#clock-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#clock {
+    font-family: monospace;
+    font-size: 6.5rem;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    backdrop-filter: blur(3px);
+    background-color: hsla(0, 0%, 100%, 0.19);
+    width: 100%;
+}
